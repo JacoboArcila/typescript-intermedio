@@ -14,6 +14,13 @@ export interface Product extends BaseModel {
   isNew: boolean;
   tags: string[];
 }
+
+// type CreateProductDto = Omit<Product, 'id' | 'createdAt' | 'updateAt' | 'category'>;
+
+/* export interface CreateProductDto extends Omit<Product, 'id' | 'createdAt' | 'updateAt' | 'category'> {
+  categoryId: string;
+} */
+
 /* export interface  Product {
   id: string | number;
   title: string;
