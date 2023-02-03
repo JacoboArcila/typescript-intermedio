@@ -1,6 +1,6 @@
 export const createProduct = (
   id: string | number,
-  //esto hace que sea opcional
+  //esto hace que sea opcional y por defecto se le asiga el true en este caso.
   isNew: boolean = true,
   stock: number = 10,
 ) => {
@@ -10,7 +10,6 @@ export const createProduct = (
     stock: stock,
   }
 }
-
 /*
   0 === false
   '' === false
