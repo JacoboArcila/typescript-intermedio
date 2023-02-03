@@ -13,4 +13,3 @@ const [username, age] = user;
 
 console.log(username, age);
 
-
