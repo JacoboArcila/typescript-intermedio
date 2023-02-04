@@ -32,7 +32,7 @@ export const updateProduct = (id: string, changes: UpdateProductDto): Product =>
 };
 
 export const findProducts = (dto: FindProductDto): Product[] => {
-
+  //code
   return products
 };
 
