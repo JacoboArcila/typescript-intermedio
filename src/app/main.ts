@@ -26,7 +26,8 @@ console.log('actualizado', products[0]);
 
 findProducts({
   stock: 10,
-  color: 'red'
+  color: 'red',
+  tags: ['as', 'sa']
 })
 
 
